@@ -15,6 +15,10 @@ public class PayrollCalculator {
         System.out.print(" Pay per hour: ");
         double payPerHour = scanner.nextDouble();
 
+        double totalPay = hoursWorked * payPerHour;
+
+        System.out.printf("%s %s earned $%.2f %n",firstName,lastName,totalPay);
+
 
     }
 }
