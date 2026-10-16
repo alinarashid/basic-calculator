@@ -1,4 +1,5 @@
 package com.pluralsight;
+
 import java.util.Scanner;
 
 
@@ -28,7 +29,7 @@ public class PayrollCalculator {
         double totalPay = hoursWorked * payPerHour;
 
         // format output $%.2f --> money %s --> string %n --> newline
-        System.out.printf("%s %s earned $%.2f %n",firstName,lastName,totalPay);
+        System.out.printf("%s %s earned $%.2f %n", firstName, lastName, totalPay);
 
 
     }
